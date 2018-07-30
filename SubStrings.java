@@ -7,7 +7,7 @@ public class SubStrings{
 		{
 			sc.nextLine();
 			String ss=sc.nextLine();
-			System.out.println("sending "+ss);
+			//System.out.println("sending "+ss);
 			cal(ss,ss.length());
 		}
 	}
@@ -17,7 +17,7 @@ public class SubStrings{
 		{
 			for(int j=i+1;j<=n;j++)
 			{
-				System.out.println(str.substring(i,j));
+				System.out.println(str.substring(i,j)); //prints the substrings from the respective position i.e here from i to j-1
 			}
 		}
 	}
